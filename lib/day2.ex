@@ -5,8 +5,6 @@ defmodule Day02 do
 
   @input_url "https://adventofcode.com/2022/day/2/input"
 
-  @conds []
-
   def puzzle_solver(input_url \\ @input_url, puzzle) do
     Utils.get_input(input_url)
     |> String.trim()
